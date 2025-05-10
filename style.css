@@ -1,0 +1,79 @@
+.container1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        margin: 0px 70px 0px 70px;
+        width: 1000px;
+        /* grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        column-gap : 220px;
+        row-gap: 500px; */
+        /* margin-left: 100px;
+        margin-top: 70px;  */
+    } 
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 1000px;
+        justify-content:space-between;
+        margin: 50px 70px 0px 70px;
+    }
+    input[type="text"]{
+        width: 100%;
+      padding: 12px 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 6px;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      font-size: 14px;
+      display: flex;
+    }
+    img{
+        width: 100px;
+    }
+    .all{
+      /* background: rgba(255, 255, 255, 0.1); */
+      background: rgba(24, 12, 72, 0.6);
+      border-radius: 20px;
+      padding: 12px 40px 40px 25px ;
+      width: 200px;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 1.37);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      text-align: center;
+      width: 220px;
+      height: fit-content;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #c850c0, #4158d0);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 100vh;
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+      flex-direction: column;
+    }
+     button{
+      padding: 12px 0;
+      margin: 15px;
+      width: 50%;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      align-content: center;
+      font-weight: bold;
+    }
+
+    .result{
+        font-size: xx-small;
+        /* font-style: italic; */
+    }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<center style="font-size: 30px">
+    <h1>3D SHAPES CALCULATOR</h1>
+    <div class="container1">
+        <div class="cube">
+            <div class="all">
+                <h2>CUBE</h2>
+                <img src="/project 1/assets/cube_img.jpeg" alt="CUBE">
+                <!-- <label for ="Ara">AREA</label> -->
+                <div class="input-box">
+                    <input type="text" id="Area_cube" placeholder="Enter the Area">
+                </div>
+                <button onclick="cal_cube()">Calculate</button>
+                <div class="result">
+                    <div id="result_cube" style="font-size:20px"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cuboid">
+            <div class="all">
+                <h2>CUBOID</h2>
+                <img src="/project 1/assets/cuboid_img.jpeg" alt="cuboid"><br>
+                <!-- <label for ="len">Length</label> -->
+                <input type="text" id="length_cuboid" placeholder="Enter the length">
+                <!-- <label for ="bre">bredth</label> -->
+                <input type="text" id="bredth_cuboid" placeholder="Enter the bredth">
+                <!-- <label for ="Hei">Height</label> -->
+                <input type="text" id="Height_cuboid" placeholder="Enter the height">
+                <button onclick="cal_cuboid()">Calculate</button>
+                 <div class="result">
+                    <div id="result_cuboid" style="font-size:20px"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cylinder">
+            <div class="all">
+                <h2>CYLINDER</h2>
+                <img src="/project 1/assets/Right-circular-cylinder.jpeg" alt="cylinder"><br>
+                <input type="text" id="Rad_cyn" placeholder="Enter the radius">
+                <input type="text" id="Height_cyn" placeholder="Enter the height">
+                <button onclick="cal_cylinder()">Calculate</button>
+                <div class="result">
+                    <div id="result_cylinder" style="font-size:20px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="cone">
+            <div class="all">
+                <h2>CONE</h2>
+                <img src="/project 1/assets/cone_img.png" alt="cone_img"><br>
+                <input type="text" id="radius_cone" placeholder="Enter the radius">
+                <input type="text" id="side_cone" placeholder="Enter a side value">
+                <input type="text" id="Height_cone" placeholder="Enter the height">
+                <button onclick="cal_cone()">Calculate</button>
+                 <div class="result">
+                    <div id="result_cone" style="font-size:20px"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rectangle">
+            <div class="all">
+                <h2>RECTANGLE</h2>
+                <img src="/project 1/assets/rectangular_ prism_img.png" alt="rectangle_img"><br>
+                <input type="text" id="length_rec" placeholder="Enter the length">
+                <input type="text" id="width_rec" placeholder="Enter the width">
+                <input type="text" id="Height_rec" placeholder="Enter the height">
+                <button onclick="cal_rectangle()">Calculate</button>
+                 <div class="result">
+                    <div id="result_rec" style="font-size:20px"></div>
+                </div>
+            </div>
+        </div>
+
+         <div class="triangle">
+            <div class="all">
+                <h2>TRIANGLE</h2>
+                <img src="/project 1/assets/Tringular_prism_img.png" alt="triangle"><br>
+                <input type="text" id="length_tri" placeholder="Enter the length">
+                <input type="text" id="bredth_tri" placeholder="Enter the bredth">
+                <input type="text" id="Height_tri" placeholder="Enter the height">
+                <input type="text" id="side_tri" placeholder="Enter a side value">
+                <button onclick="cal_triangle()">Calculate</button>
+                 <div class="result">
+                    <div id="result_tri" style="font-size:20px"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</center>
+<script src="script.js"></script>
+</body>
+</html>
